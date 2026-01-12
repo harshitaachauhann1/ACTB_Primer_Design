@@ -43,27 +43,27 @@ The designed primers showed optimal characteristics and high specificity, making
 
 # 1. On-Target Matches
 1. Does the primer pair match the target gene with 100% identity?
-i). The selected primer pair showed a 100% sequence identity match to the intended target gene ACTB (NM_001101.5). Primer-BLAST predicted a single specific PCR product of 103 bp corresponding to the ACTB gene, confirming accurate on-target amplification.
+1.1. The selected primer pair showed a 100% sequence identity match to the intended target gene ACTB (NM_001101.5). Primer-BLAST predicted a single specific PCR product of 103 bp corresponding to the ACTB gene, confirming accurate on-target amplification.
 
 # 2. Off-Target (Non-Specific) Hits
 1. potential targets : Primer-BLAST analysis against the Homo sapiens genome (taxid:9606) revealed only one predicted amplification product corresponding to the ACTB gene. No additional products were detected on unintended genomic regions. 
 2. Critical Check : No binding of both forward and reverse primers was observed within 2,000 bp of each other on any unintended chromosome or pseudogene. Therefore, the risk of non-specific amplification is minimal.
 3. rule of thumb 
-i). rule : Non-specific product is risky if both primers bind within 2,000 bp with ≤2–3 mismatches at 3′ end.
-ii). analysis : According to the rule of thumb, non-specific amplification is unlikely, as Primer-BLAST did not identify any unintended genomic regions where both primers bind within 2,000 bp with fewer than 2–3 mismatches at the 3′ end. 
+3.1.  rule : Non-specific product is risky if both primers bind within 2,000 bp with ≤2–3 mismatches at 3′ end.
+3.2. analysis : According to the rule of thumb, non-specific amplification is unlikely, as Primer-BLAST did not identify any unintended genomic regions where both primers bind within 2,000 bp with fewer than 2–3 mismatches at the 3′ end. 
 
 # 3. Primer Quality Assessment 
-a) GC Content (40–60%)
-i). Forward	63.16%
-ii). Reverse	55.00%
+3.1. GC Content (40–60%)
+3.1.1. Forward	63.16%
+3.1.2. Reverse	55.00%
 The GC content of the primers falls within or close to the recommended range (40–60%), ensuring stable primer-template binding without excessive secondary structure formation.
-b) GC Clamp (3′ end stability)
-i). Forward 3′ end: G
-ii). Reverse 3′ end: T (with nearby GC bases)
+3.2. GC Clamp (3′ end stability)
+3.2.1. Forward 3′ end: G
+3.2.2. Reverse 3′ end: T (with nearby GC bases)
 The primers contain a GC clamp at the 3′ end, providing stable binding at the extension site and improving amplification efficiency.
-c) Self-Complementarity (Primer Dimers)
-i). Self complementarity	4.0
-ii). 3′ complementarity	2.0
+3.3. Self-Complementarity (Primer Dimers)
+3.3.1. Self complementarity	4.0
+3.3.2. 3′ complementarity	2.0
 Both primers exhibit low self-complementarity and low 3′ complementarity scores, indicating a low risk of hairpin or primer-dimer formation.
 conclusion : Overall analysis of the Primer-BLAST results indicates that the selected ACTB primer pair demonstrates high on-target specificity, no significant off-target binding, acceptable GC content, a stable GC clamp, and low self-complementarity. Therefore, the primers are of high quality and suitable for specific PCR amplification and NGS target enrichment.
 
